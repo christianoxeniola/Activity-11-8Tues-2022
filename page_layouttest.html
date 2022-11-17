@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Html layout</title>
+</head>
+<body>
+
+    <div id="container" style="width: 700px; border: 2px solid black; text-align: center; ">
+
+        <div style="width: 700px; height: 40px; background-color: whitesmoke; ">
+            This is your Header
+        </div>
+
+        <div style="width: 700px; height: 40px; background-color: royalblue; ">
+            Navigation Bar
+        </div>
+
+        <div style="width: 20%; height: 500px; background-color: aquamarine; float: left; ">
+            Index
+        </div>
+
+        <div style="width: 80%; height: 500px; background-color: lightcoral; float: right; ">
+            Content Section
+        </div>
+
+        <div style="width: 700px; height: 40px; background-color:brown; clear:both ">
+            Footer Section
+        </div>
+
+    </div>
+<br><br><br><br><br>
+    <table
+    border="1px"
+    padding="10"
+    cellspacing="0"
+    width="700px"
+    height="500px"
+    border-collapse: collapse;
+    >
+        <tr>
+            <td colspan="5" align="center" height="40px" bgcolor="whitesmoke">Header Section</td>
+        </tr>
+        <tr>
+            <td colspan="5" align="center" height="40px" bgcolor="royalblue">Navigation Bar</td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="aquamarine">Index</td>
+            <td colspan="4" align="center" bgcolor="lightcoral">Main Menu</td>
+        </tr>
+        <tr>
+            <td colspan="5" align="center" height="40px" bgcolor="brown">Footer</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

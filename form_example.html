@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>HTML Forms</h1>
+        <br>
+
+    <form>
+        <label for="firstName">First Name:</label>
+            <input 
+                type="text"
+                name="firstName"
+                size="25"
+                maxlength="25"
+                minlength="5"
+                placeholder="First Name"
+                id="firstName"
+            />
+            <br /><br />
+
+        <label for="password">Password:</label>
+            <input 
+                type="password" 
+                id="password"
+                name="password"
+                />
+
+                <br /><br />
+
+        <label for="feedback">Feedback</label>
+            <br />
+            <textarea 
+                name="feedback" 
+                id="feedback" 
+                cols="30" 
+                rows="10"
+                placeholder="Leave us a Feedback!">
+            </textarea>
+
+            <br /><br />
+
+            <p><span 
+                style="color: Red;">Programming Languages:
+                </span></p>
+        <label for="javascript">Javascript</label>
+            <input 
+                type="checkbox"
+                name="progLanguage"
+                id="javascript"
+                value="Javascript"
+                />
+
+        <label for="php">PHP</label>
+            <input 
+                type="checkbox"
+                name="progLanguage"
+                id="php"
+                value="PHP"
+                />
+            
+        <label for="phyton">Phyton</label>
+                <input 
+                    type="checkbox"
+                    name="progLanguage"
+                    id="phyton"
+                    value="Phyton"
+                    />
+                <br><br>
+        <p>Enter your Gender</p>
+        <label for="male">Male</label>
+            <input 
+                    type="radio" 
+                    name="gender" 
+                    id="male"
+                    value="male"
+                    />
+        <label for="female">Female</label>
+            <input 
+                    type="radio" 
+                    name="gender" 
+                    id="female"
+                    value="female"
+                    />
+        <label for="dontSay">I prefer not to Say</label>
+            <input 
+                    type="radio" 
+                    name="gender" 
+                    id="dontSay"
+                    value="I prefer not to Say"
+                    />
+                
+                <br><br>
+        <label for="dropdown">Wec Technology:</label>
+                <select name="dropdown" id="dropdown">
+                    <option
+                        selected
+                        disabled
+                    >
+                    Please Select
+
+                    </option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">Javascript</option>
+                </select>
+                <br><br>
+        
+        <p>Upload Profile Picture:</p>
+                <input type="file" 
+                name="profilePic" 
+                accept="image/*"
+                >
+                <br><br>
+                Enter your Birthday
+                <input type="date" name="bday" />
+                <br><br>
+
+                Range from 0 to 50:
+                <input 
+                    type="range"
+                    name="range"
+                    min="0"
+                    max="50"
+                    step="10"
+                    value="10"
+                />
+                <br><br>
+            Pick a Time:
+                <input type="time" name="time">
+                <br><br>
+            Pick a Month:
+                <input type="month" name="month" id="">
+                <br><br>
+            Pick a Time:
+                <input type="week" name="week">
+                <br><br>
+            Pick your favorite color:
+                <input type="color" 
+                name="color" 
+                value="#42C5FF"
+                />
+                <br><br>
+                Enter a number:
+                <input type="number" name="number"/>
+                <br><br>
+
+            <input type="button" value="Button 1" />
+                <br><br>
+            <input type="reset" value="Reset">
+                <br><br>
+            <input type="submit" value="Register" />
+            <br><br>
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
